@@ -27,6 +27,7 @@
 #### Criar uma nova tarefa:
 ```bash
 $ ./plist new <task_name>
+Task created successfully!
 ```
 
 #### Listar tarefas:
@@ -44,16 +45,6 @@ Task <task_name> marked as completed/uncompleted!
 Task ID: 1, Name: Tarefa 1, Completed: ☒
 Task ID: 2, Name: Tarefa 2, Completed: ☑
 ```
-
-#### Completar/Descompletar(?) tarefas:
-```bash
-$ ./plist complete/uncomplete <task_id>
-Task <task_name> marked as completed/uncompleted!
-./plist list
-Task ID: 1, Name: Tarefa 1, Completed: ☒
-Task ID: 2, Name: Tarefa 2, Completed: ☑
-```
-
 
 #### Deletar tarefas:
 ```bash
