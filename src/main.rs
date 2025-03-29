@@ -159,6 +159,7 @@ fn main() {
             };
 
             app.delete(id);
+            println!("Task with ID {} deleted", id);
             app.save_to_file();
         }
         "complete" => {
